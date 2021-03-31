@@ -1,0 +1,8 @@
+@media (min-width:576px) {
+  .card-group > .card:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+  }
+}
+
