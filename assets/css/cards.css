@@ -1,0 +1,96 @@
+.rounded-circle {
+  /*border-radius: 50%!important;*/
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text {
+  border-color: rgb(12,129,247);
+  border-radius: 2px;
+}
+
+.input-group > .custom-select:not(:first-child), .input-group > .form-control:not(:first-child) {
+  border-radius: 2px;
+  border-color: #fff;
+}
+
+#carousel-1 {
+  position: sticky;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  /*margin-top: 50px;*/
+  margin-bottom: 50px;
+}
+
+#carousel-1 {
+}
+
+.w-100 {
+  max-width: 75%!important;
+  height: auto;
+}
+
+.w-100.d-block {
+  max-width: 75%!important;
+  height: auto;
+}
+
+.w-100.d-block {
+  max-width: 75%!important;
+  height: auto;
+}
+
+.btn.btn-primary.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 80px;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 40px;
+}
+
+.col {
+}
+
+.d-lg-flex.align-items-lg-center {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.card-body {
+  color: rgba(5,136,62,0.58);
+}
+
+.card-body {
+}
+
+@media (max-width: 576px) {
+  #hide {
+    display: none;
+  }
+}
+
+img, svg {
+}
+
+.card-group > .card:not(:last-child) {
+  border: none;
+}
+
+.card-body.text-center {
+  border: none !important;
+  outline: none;
+}
+
