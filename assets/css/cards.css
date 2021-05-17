@@ -114,7 +114,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #tech {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
