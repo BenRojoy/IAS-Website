@@ -79,6 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-body {
+  border: none;
+  padding: 0px;
 }
 
 @media (max-width: 576px) {
@@ -110,5 +112,17 @@ p {
   .align-items-lg-center {
     max-width: 300px;
   }
+}
+
+@media (max-width: 400px) {
+  #tech {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+.card-body.text-center.border-white {
+  padding: 0px;
+  border: none;
 }
 
