@@ -62,7 +62,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
 }
 
-.col {
+@media (max-width: 500px) {
+  .col {
+    padding: 0px;
+  }
 }
 
 .d-lg-flex.align-items-lg-center {
@@ -98,5 +101,11 @@ img, svg {
 
 p {
   text-align: center;
+}
+
+@media (max-width: 450px) {
+  .align-items-lg-center {
+    max-width: 300px;
+  }
 }
 
