@@ -1,0 +1,21 @@
+@media (max-width:450px) {
+  .card-group {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+}
+
+@media (max-width:450px) {
+  .flex-sm-row {
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+  }
+}
+
+@media (max-width:450px) {
+  .flex-sm-column-reverse {
+    -ms-flex-direction: column-reverse!important;
+    flex-direction: column-reverse!important;
+  }
+}
+
