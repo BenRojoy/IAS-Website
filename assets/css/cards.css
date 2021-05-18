@@ -140,7 +140,7 @@ p {
 
 @media (max-width: 500px) {
   #IEEE {
-    width: 160px;
+    width: 160px!important;
     height: 75px!important;
   }
 }
