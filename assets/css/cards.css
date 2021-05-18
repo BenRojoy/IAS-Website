@@ -145,3 +145,9 @@ p {
   }
 }
 
+@media (max-width: 500px) {
+  img, svg {
+    width: 100%!important;
+  }
+}
+
