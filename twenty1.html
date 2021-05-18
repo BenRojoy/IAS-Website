@@ -42,11 +42,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button" style="background-color: #111111;">
-        <div class="container"><a class="navbar-brand text-left" href="index.html" style="padding: 0px;"><span class="text-center" style="color: rgb(255,255,255);"><img src="assets/img/favicon.png" alt="IAS Logo" style="margin: 0px 10px 0px;height: 100px;">IEEE IAS SCT SB</span> </a>
+    <nav class="navbar navbar-light navbar-expand-md d-flex justify-content-center navbar-fixed-top navigation-clean-button" style="background-color: #111111;">
+        <div class="container"><a class="navbar-brand text-left d-flex d-xl-flex align-items-xl-center" href="index.html" style="padding: 0px;"><span class="text-center d-xl-flex order-2 align-items-xl-center" style="color: rgb(255,255,255);"><img class="order-1" src="assets/img/favicon.png" alt="IAS Logo" id="IAS" style="margin: 0px 10px 0px;height: 100px;width: auto;min-width: none;max-width: none;">IEEE IAS SCT SB</span> </a>
             <button
-                class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="color: rgba(255,255,255,0.5);background-color: #ffffff;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
+                class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="color: rgba(255,255,255,0.5);background-color: #ffffff;margin: 0px;margin-top: 20px;margin-bottom: 20px;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center align-items-xl-center" id="navcol-1">
                     <ul class="nav navbar-nav nav-right">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html" style="color: #ffffff;"><strong>Home </strong></a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#about" style="color: #ffffff;">About</a></li>
@@ -58,7 +58,7 @@
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#contact" style="color: #ffffff;">Contact us</a></li>
                     </ul>
-                    <p class="text-center ml-auto navbar-text actions"><a href="https://ieeesctsb.org/" class="login"><img src="assets/img/IEEE%20SCT%20SB%20Logo.png" style="height: 80px;"></a> </p>
+                    <p class="text-center ml-auto navbar-text actions"><a href="https://ieeesctsb.org/" class="login"><img class="d-flex justify-content-center" src="assets/img/IEEE%20SCT%20SB%20Logo.png" id="IEEE" style="height: 80px;"></a> </p>
                 </div>
         </div>
     </nav>
@@ -92,19 +92,18 @@
         <div class="col-lg-5" style="width: 300px;"><img src="assets/img/2021/GENESIS%20task%203%20poster.jpeg" style="width: 400px;"></div>
         <div class="col"><div class="text-center"><h3 class="text-break text-center">Genesis Task #3</h3></div><div class="text-center"><div role="group" class="btn-group"><a class="btn btn-primary" role="button" href="https://drive.google.com/file/d/1Rio01hQMok1ws21nDFp3yOHJ1kBemksq/view?usp=sharing">Preview</a><a class="btn btn-primary" role="button" href="https://drive.google.com/uc?export=download&id=1Rio01hQMok1ws21nDFp3yOHJ1kBemksq">Download</a></div></div></div>
     </div><a class="btn btn-primary btn-lg box-shadow" role="button" href="#" id="top"><i class="fa fa-arrow-up"></i></a>
-    <footer id="contact" style="min-height: 100%;padding: 10px;">
+    <footer class="flex-sm-shrink-1" id="contact" style="min-height: 100%;padding: 10px;">
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-2 footer-navigation">
-                <h3><a href="#"><img class="img-fluid" src="assets/img/favicon.png" style="height: auto;margin: 30% 10%;width: auto;padding: 0;"></a></h3>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-lg-8">
-                <h6 class="display-4 text-center" style="font-size: 39px;margin: 20px 0px 30px;">Contact us:</h6>
-                <p><a href="mailto:iassctsb@gmail.com"><i class="fa fa-envelope" style="font-size: 30px;color: rgb(255,255,255);margin-right: 20px;"></i></a><a href="https://www.instagram.com/ieeesctsb/"><i class="fa fa-instagram" style="font-size: 30px;color: rgb(255,255,255);margin-right: 0px;margin-left: 20px;"></i></a></p>
-                <p></p>
-                <p style="height: 15px;color: rgba(255,255,255,0.5);font-family: Lato, sans-serif;"><strong>IAS SCT SB © 2021</strong><br></p>
-            </div>
-            <div class="col-md-4 col-lg-2 footer-about" style="padding-top: 40px;"><a href="https://ieeesctsb.org/"><img class="img-fluid" src="assets/img/IEEE%20SCT%20SB%20Logo.png" id="hide" style="padding: 0px;width: auto;margin: auto;height: auto;margin-top: 15%;"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-2 d-flex d-lg-flex flex-row justify-content-center align-items-center justify-content-lg-center align-items-lg-center footer-navigation" style="width: auto;height: 173px;"><a class="d-flex justify-content-center" href="#" style="width: auto;min-width: 120px;max-width: 150px;color: rgb(255,255,255);"><img class="img-fluid d-flex d-lg-flex justify-content-center justify-content-lg-center align-items-lg-center" src="assets/img/favicon.png" style="height: auto;margin: 0;width: auto;padding: 0;max-width: 150px;min-width: 120px;"></a></div>
+            <div
+                class="clearfix"></div>
+        <div class="col-lg-8 flex-row">
+            <h6 class="display-4 text-center" style="font-size: 39px;margin: 20px 0px 30px;">Contact us:</h6>
+            <p><a href="mailto:iassctsb@gmail.com"><i class="fa fa-envelope" style="font-size: 30px;color: rgb(255,255,255);margin-right: 20px;"></i></a><a href="https://www.instagram.com/ieeesctsb/"><i class="fa fa-instagram" style="font-size: 30px;color: rgb(255,255,255);margin-right: 0px;margin-left: 20px;"></i></a></p>
+            <p></p>
+            <p style="height: 15px;color: rgba(255,255,255,0.5);font-family: Lato, sans-serif;"><strong>IAS SCT SB © 2021</strong><br></p>
+        </div>
+        <div class="col text-center d-flex d-lg-flex flex-row justify-content-center align-items-center justify-content-lg-center align-items-lg-center" style="height: 173px;"><a href="https://www.ieeesctsb.org/"><img class="img-fluid d-flex justify-content-center align-items-center" src="assets/img/IEEE%20SCT%20SB%20Logo.png" style="min-width: 120px;max-width: 150px;"></a></div>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>

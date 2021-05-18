@@ -68,10 +68,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.d-lg-flex.align-items-lg-center {
-  align-items: center;
-  align-content: center;
-  align-self: center;
+@media (max-width: 500px) {
+  .d-lg-flex.align-items-lg-center {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 50%!important;
+    order: 2;
+  }
 }
 
 .card-body {
@@ -81,12 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 .card-body {
   border: none;
   padding: 0px;
-}
-
-@media (max-width: 576px) {
-  #hide {
-    display: none;
-  }
 }
 
 img, svg {
@@ -106,6 +104,7 @@ img, svg {
 
 p {
   text-align: center;
+  color: #000000;
 }
 
 @media (max-width: 450px) {
@@ -124,5 +123,25 @@ p {
 .card-body.text-center.border-white {
   padding: 0px;
   border: none;
+}
+
+@media (max-width: 500px) {
+  .col-lg-8.flex-row {
+    order: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  #IAS {
+    width: 100px!important;
+    height: 66px!important;
+  }
+}
+
+@media (max-width: 500px) {
+  #IEEE {
+    width: 160px;
+    height: 75px!important;
+  }
 }
 
