@@ -151,3 +151,9 @@ p {
   }
 }
 
+@media (max-width: 500px) {
+  #slide {
+    width: 100%!important;
+  }
+}
+
