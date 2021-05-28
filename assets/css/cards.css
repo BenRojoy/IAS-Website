@@ -163,3 +163,10 @@ p {
   }
 }
 
+@media (min-width: 500px) {
+  #col-img {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+  }
+}
+
