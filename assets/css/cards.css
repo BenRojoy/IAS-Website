@@ -178,3 +178,9 @@ p {
   }
 }
 
+@media (min-width: 992px) {
+  #FF3 {
+    margin-right: 80px!important;
+  }
+}
+
