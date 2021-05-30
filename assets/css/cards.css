@@ -160,6 +160,7 @@ p {
 @media (max-width: 500px) {
   #col-img {
     width: 100%!important;
+    min-width: 323px;
   }
 }
 
@@ -167,6 +168,13 @@ p {
   #col-img {
     padding-left: 15px!important;
     padding-right: 15px!important;
+  }
+}
+
+@media (max-width: 500px) {
+  #col-img1 {
+    max-width: 100%!important;
+    min-width: 323px!important;
   }
 }
 
