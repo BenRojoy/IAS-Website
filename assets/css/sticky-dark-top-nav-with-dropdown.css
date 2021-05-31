@@ -91,8 +91,7 @@
   color: #e04c40 !important;
   border-top: solid 1px #e04c40;
   background-color: transparent;
-  transition: background 0.2s ease,
-              padding 0.8s linear;
+  transition: background 0.2s ease, padding 0.8s linear;
   transition: background-color 0.25s;
 }
 
